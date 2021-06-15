@@ -19,7 +19,7 @@ function Actionbar () {
     const {widthBar1,widthBar2,widthBar3} = useSetActions()
     const {widthBossBar1,widthBossBar2,widthBossBar3} = useBossSetActions()
 
-    const {lol} = useFirstAction()
+    const {something} = useFirstAction()
 
     const timer=2-(0.15*(level-1))
 

@@ -19,7 +19,7 @@ const level_Life = [
 export function StartPlayProvider({ children }) {
     const [isStart, setIsStart] = useState(false);
     const [isAttack, setIsAttack] = useState(false)
-    const [level,setLevel] = useState(10)
+    const [level,setLevel] = useState(1)
     const [method, setMethod] = useState({type:"", damage:0, heal:0})
     const [methodBoss, setMethodBoss] = useState({type:"", damage:0})
     const [bossLifes, setBossLifes] = useState(level_Life[level-1].level);
@@ -34,7 +34,6 @@ export function StartPlayProvider({ children }) {
         setMethodBoss({type:"", damage:0})     
     }
     const ResetForMatch = useCallback(()=>{
-        console.log("math")
         setIsAttack(false)
         setIsStart(false)
         setBossLifes(level_Life[level-1].level)          
