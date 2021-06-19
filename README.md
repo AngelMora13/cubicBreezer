@@ -1,6 +1,6 @@
 # Cubic-Breezer.
 
-A game where you can have fun passing its levels.
+A game where you can have fun passing its levels. Go to [Cubic-Breezer](https://cubicbreezer.vercel.app/)
 
 ## Attack buttom.
 
